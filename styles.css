@@ -1,0 +1,496 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Inter', sans-serif;
+}
+
+.home {
+    display: flex;
+    height: 95.5vh;
+    width: 212vh;
+}
+
+/* Side Bar */
+.left-side-bar {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 18%;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.side-img {
+    margin-right: 8%;
+    position: absolute;
+    left: 35px;
+    top: 15px;
+}
+
+.side-bar-text {
+    color: #817f8e;
+}
+
+.not {
+    position: absolute;
+    border-radius: 50%;
+    width:20px;
+    height:20px;
+    left: 152px;
+    top: 12px;
+    background-color: #F63D13;
+}
+
+.not1 {
+    position: absolute;
+    border-radius: 50%;
+    width:1px;
+    height:1px;
+    left: 205px;
+    top: 4px;
+}
+
+.im5 {
+    width:1px;
+    height:1px;
+    left: 168px;
+    top: 12px;
+}
+
+.im2 {
+    width:10px;
+    height:10px;
+    left: 153px;
+    top: 6px;
+}
+
+.im1 {
+    margin-right: 8%;
+    position: absolute;
+    left: 50px;
+    width: 35px;
+    top: 8px;
+}
+
+.btn-primary {
+    background-color:#4B0ACE;
+}
+
+.txt {
+    position: absolute;
+    left: 70px;
+    top: 13px;
+}
+
+.logout-txt {
+    color: #4B0ACE;
+    position: absolute;
+    left: 89px;
+    top: 9px;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.bt {
+    position: relative;
+    width: 216px;
+    height: 46px;
+    margin: 2px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.5;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.logout {
+    display: flex;
+    flex-grow: 0.1;
+}
+
+.logo {
+    margin-top: 20px;
+    display: flex;
+    flex-grow: 0.1;
+}
+
+
+.centre-page {
+    flex-grow: 1;
+    flex-basis: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+#search-bar {
+    position: absolute;
+    left: 18%;
+    width: 610px;
+    height: 52px;
+    border-radius: 15px;
+    padding: 8px 0px 8px 16px;
+    border-color: #86859300;
+    background-color: #fafbfc;
+    font-size: 14px;
+}
+
+.content-side ul {
+    text-decoration: none;
+    list-style: none;
+    margin-left:16%;
+}
+
+li {
+    display: inline;
+    padding-right: 8%;
+    margin-right: 10%;
+    /* background: #FAFBFC; */
+    border-radius: 50%;
+}
+
+.content-side {
+    position: absolute;
+    left: 68%;
+    width: 450px;
+    height: 52px;
+    border-radius: 15px;
+    padding: 8px 0px 8px 16px;
+    font-size: 14px;
+}
+
+.element1 img {
+    width:47px;
+    height:47px;
+    border-radius: 50%;
+    background-color: #FAFBFC;
+}
+
+.element {
+    display: inline-block;
+    width:35px;
+    height:35px;
+    border-radius: 100%;
+    background-color: #fafbfc;
+}
+
+.element img {
+    position: relative;
+    left: 7px;
+    top: 5px;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+}
+
+::placeholder {
+    color: #a09faa;
+}
+
+#search-icon {
+    position: relative;
+    left: 610px;
+    top: 12px;
+}
+
+.centre-1 {
+    clear: left;
+    background-color: #ffffff;
+    width: 63%;
+    /* margin-top: 1%; */
+    padding: 2% 3% 3% 2%;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #4b0ace;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 5% 5% 5% 5%;
+}
+
+#hero:hover {
+    box-shadow: 0px 4px 3px #cacaca;
+}
+
+#td-game-text {
+    font-size: 14px;
+    width: 50%;
+}
+
+#high-quality-text {
+    margin-top: 10px;
+    font-size: 25px;
+    display: block;
+    width: 92%;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.white-text {
+    color: #fff;
+}
+
+#rocket {
+    position: absolute;
+    left: 410px;
+    bottom: -13px;
+}
+
+.hero-column {
+    position: relative;
+    width: 50%;
+}
+
+#diamond-icon {
+    position: relative;
+    left: 2px;
+    top: 1px;
+}
+
+#download-button {
+    background-color: #ffa910;
+    border-radius: 20px;
+    height: 52px;
+    width: 182px;
+    border-color: #ffa71000;
+    margin-top: 10%;
+    
+}
+
+#dl-assets {
+    font-weight: 600;
+    color: #362d28;
+    font-size: 14px;
+    position: relative;
+    left: 2px;
+}
+
+/* Popular Games */
+
+#popular-games-section {
+    margin-top: 1.5%;
+}
+
+#popular-games-text {
+    color: #21202b;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#popular-games-text:hover {
+    text-shadow: 2px 2px 5px #cdcdcd;
+}
+
+/* Assets Cards */
+.assets-col {
+    background-color: #fafbfc;
+    /* width: 31%; */
+    width: 220px;
+    height: 255px;
+    float: left;
+    margin: 0% 1% 1% 1%;
+    border-radius: 20px;
+}
+
+.assets-col:hover {
+    box-shadow: 0px 4px 5px #cacaca;
+}
+
+.active-asset {
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #301c57;
+}
+
+#controller-img {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 84%;
+}
+
+.card-heading {
+    font-weight: 600;
+}
+
+#stats {
+    float: right;
+    font-size: 11px;
+}
+
+.stats-inactive {
+    color: #a09faa;
+}
+
+.description-inactive {
+    color: #868593;
+}
+
+.mini-container {
+    padding: 0 20px;
+    
+}
+
+.description {
+    font-size: 11px;
+    margin-top: -14px;
+    margin-bottom: 5px;
+}
+
+.assets-download-button {
+    float: right;
+    background-color: #4b0ace;
+    border-radius: 8px;
+    height: 26px;
+    width: 76px;
+    border-color: #ffa71000;
+    /* margin-top: 10%; */
+    padding-bottom: 25px;
+}
+
+.asset-dl-text {
+    color: #ffffff;
+    font-size: 10px;
+    /* font-weight: 600; */
+    letter-spacing: 1px;
+}
+
+/* Right Side Bar */
+
+.centre-2 {
+    border-radius:20px;
+    padding-right: 100px;
+    background: #301C57;
+    width: 29%;
+    min-height: 126vh;
+    padding: 0;
+    margin-top:5%;
+    margin-bottom: 10px;
+}
+
+.centre-2:hover {
+    box-shadow: 2px 3px 4px #cacaca;
+}
+
+.content {
+    position: absolute;
+    border-radius: 15px;
+    width: 325px;
+    height: 215px;
+    left:71%;
+    top:15%;
+    margin-bottom: 10%;
+    background-image: url("images/SideBar Thumbnailthumbnail.svg");
+}
+
+.content-2 {
+    position: absolute;
+    color: white;
+    width: 338px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    height: 482px;
+    left:71%;
+    top:46%;
+}
+
+#stats-inside {
+    position: absolute;
+    width: 200px;
+    left:70%;
+    top:4%;
+    font-size: 11px;
+}
+
+.ach-1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left:71%;
+    top: 125%;
+    border: 3px solid #533391;
+    border-radius: 50%;
+}
+
+.ach-2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left:81%;
+    top: 125%;
+    border: 3px solid #533391;
+    border-radius: 50%;
+}
+
+.ach-1 img {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left:2px;
+    width: 40px;
+    height: 30px;
+}
+
+.ach-2 img {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left:2px;
+    width: 40px;
+    height: 30px;
+}
+
+.ach-txt {
+    color: #787686;
+    font-weight: 600;
+}
+
+.ach-numbers {
+    font-weight: 600;
+}
+
+.rating1 {
+    position: absolute;
+    left:60px;
+    color:white;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.rating2 {
+    color:white;
+    position: absolute;
+    left:60px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.ach-1  p {
+    width: 70px;
+    height: 20px;
+}
+
+.ach-2  p {
+    width: 85px;
+    height: 20px;
+}
+

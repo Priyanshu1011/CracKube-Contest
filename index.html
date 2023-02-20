@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CracKube Contest</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="home">
+        <div class="left-side-bar">
+            <div class="logo">
+                <img class="bt" src="images/logo.svg" alt="logo">
+            </div>
+
+            <div class="btns">
+                <button type="button" class="bt btn btn-primary btn-lg"> <img class="side-img" src="images/dashboard.svg" alt="dashboard"> <p class="txt">Dashboard</p> </button>
+                <button type="button" class="bt btn btn-light btn-lg side-bar-text"><img class="side-img" src="images/game-store.svg" alt="game-store"><p class="txt">Game Store</p></button>
+                <button type="button" class="bt btn btn-light btn-lg side-bar-text"><img class="side-img" src="images/live-stream-tv.svg" alt="live-stream-tv"><p class="txt">Live Stream TV</p></button>
+                <button type="button" class="bt btn btn-light btn-lg side-bar-text"><img class="side-img" src="images/teams-member.svg" alt="teams-member"><p class="txt">Teams Member</p></button>
+                <button type="button" class="bt btn btn-light btn-lg side-bar-text"><img class="side-img" src="images/badges.svg" alt="badges"><p class="txt">Badges</p></button>
+                <button type="button" class="bt btn btn-light btn-lg side-bar-text"><img class="side-img" src="images/my-library.svg" alt="my-library"><p class="not"><img class="im2" src="images/2.svg" alt="2"></p><p class="txt">My Library</p></button>
+                <button type="button" class="bt btn btn-light btn-lg side-bar-text"><img class="side-img" src="images/trophies.svg" alt="trophies"><p class="not"><img class="im2" src="images/not7.svg" alt="7"></p><p class="txt">Trophies </p></button>
+            </div>
+
+            <div class="logout">
+                <button type="button" class="bt btn btn-light btn-lg"><i class="im1 fa fa-2x fa-sign-out" aria-hidden="true"></i> <p class="logout-txt">Log Out</p></button>
+            </div>
+        </div> <!-- div.left-side-bar ends -->
+
+        <div class="centre-page">
+            <form action="/" method="post">
+                <input type="text" name="search" id="search-bar" placeholder="Search game...">
+                <img src="images/search.svg" alt="search" id="search-icon">
+            </form>
+
+            <div class="content-side">
+                <ul>
+                    <li class="element">
+                        <img src="images/first.svg" alt="" width="1px">
+                        
+                    </li>
+                    <li class="element">
+                        <img src="images/second.svg" alt=""><p class="not1"><img class="im5" src="images/ellipse.svg" alt="" width="1px"></p>
+                    </li>
+                    <li class="element">
+                        <img src="images/third.svg" alt="">
+                    </li>
+                    <li class="element1">
+                        <img src="images/pfp.svg" alt="profile-pic">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="centre-1">
+                <div id="hero">
+                    <div class="hero-column">
+                        <p class="white-text" id="td-game-text">3D Game Assets Store & Free</p>
+                        <b class="white-text" id="high-quality-text">High-quality premium & free 3D-game assets.</b>
+                        <button id="download-button"><img src="images/diamond.svg" alt="diamond-icon" id="diamond-icon"> <span id="dl-assets">Download Assets</span></button>
+                    </div>
+                    
+                    <div class="hero-column">
+                        <img src="images/rocket.svg" alt="rocket" width="242px" id="rocket">
+                    </div>
+                    
+                </div>
+                
+                <!-- Popular Games Heading -->
+                <div id="popular-games-section">
+                    <p id="popular-games-text">Popular Games <img src="images/right-arrow.svg" alt="right-arrow"></p>
+                </div>
+
+                <!-- Asset Cards -->
+                <!-- 1st row -->
+                <div class="assets-row">
+                    <div class="assets-col active-asset">
+                        <img src="images/controller.svg" alt="controller" id="controller-img">
+                        
+                        <div class="mini-container">
+                            <p><span class="card-heading">Nocturnal</span> <span id="stats">
+                                <img src="images/heart-purple.png" alt="heart" width="11px"> 232 <img src="images/download-purple.png" alt="download" width="11px"> 146k 
+                            </span></p>
+                            <p class="description">Its your last night shift as a forklift operator at...</p>
+                            <p>
+                                <img src="images/windows-purple.png" alt="windows" width="13px">
+                                <img src="images/apple-purple.png" alt="apple" width="13px">
+                                <img src="images/play-store-purple.png" alt="play-store" width="13px">
+                                <button class="assets-download-button"><span class="asset-dl-text">Download</span></button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="assets-col">
+                        <img src="images/controller.svg" alt="controller" id="controller-img">
+                        
+                        <div class="mini-container">
+                            <p><span class="card-heading">The Keeper</span> <span id="stats" class="stats-inactive">
+                                <img src="images/heart-white.png" alt="heart" width="11px"> 232 <img src="images/download-white.png" alt="download" width="11px"> 146k 
+                            </span></p>
+                            <p class="description description-inactive">Its your last night shift as a forklift operator at...</p>
+                            <p>
+                                <img src="images/windows-white.png" alt="windows" width="13px">
+                                <img src="images/apple-white.png" alt="apple" width="13px">
+                                <img src="images/play-store-white.png" alt="play-store" width="13px">
+                                <button class="assets-download-button"><span class="asset-dl-text">Download</span></button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="assets-col">
+                        <img src="images/controller.svg" alt="controller" id="controller-img">
+                        
+                        <div class="mini-container">
+                            <p><span class="card-heading">The Keeper</span> <span id="stats" class="stats-inactive">
+                                <img src="images/heart-white.png" alt="heart" width="11px"> 232 <img src="images/download-white.png" alt="download" width="11px"> 146k 
+                            </span></p>
+                            <p class="description description-inactive">Its your last night shift as a forklift operator at...</p>
+                            <p>
+                                <img src="images/windows-white.png" alt="windows" width="13px">
+                                <img src="images/apple-white.png" alt="apple" width="13px">
+                                <img src="images/play-store-white.png" alt="play-store" width="13px">
+                                <button class="assets-download-button"><span class="asset-dl-text">Download</span></button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2nd row -->
+                <div class="assets-row">
+                    <div class="assets-col">
+                        <img src="images/controller.svg" alt="controller" id="controller-img">
+                        
+                        <div class="mini-container">
+                            <p><span class="card-heading">Fear Lift</span> <span id="stats" class="stats-inactive">
+                                <img src="images/heart-white.png" alt="heart" width="11px"> 232 <img src="images/download-white.png" alt="download" width="11px"> 146k 
+                            </span></p>
+                            <p class="description description-inactive">Its your last night shift as a forklift operator at...</p>
+                            <p>
+                                <img src="images/windows-white.png" alt="windows" width="13px">
+                                <img src="images/apple-white.png" alt="apple" width="13px">
+                                <img src="images/play-store-white.png" alt="play-store" width="13px">
+                                <button class="assets-download-button"><span class="asset-dl-text">Download</span></button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="assets-col">
+                        <img src="images/controller.svg" alt="controller" id="controller-img">
+                        
+                        <div class="mini-container">
+                            <p><span class="card-heading">Eerness</span> <span id="stats" class="stats-inactive">
+                                <img src="images/heart-white.png" alt="heart" width="11px"> 232 <img src="images/download-white.png" alt="download" width="11px"> 146k 
+                            </span></p>
+                            <p class="description description-inactive">Its your last night shift as a forklift operator at...</p>
+                            <p>
+                                <img src="images/windows-white.png" alt="windows" width="13px">
+                                <img src="images/apple-white.png" alt="apple" width="13px">
+                                <img src="images/play-store-white.png" alt="play-store" width="13px">
+                                <button class="assets-download-button"><span class="asset-dl-text">Download</span></button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="assets-col">
+                        <img src="images/controller.svg" alt="controller" id="controller-img">
+                        
+                        <div class="mini-container">
+                            <p><span class="card-heading">Eerness</span> <span id="stats" class="stats-inactive">
+                                <img src="images/heart-white.png" alt="heart" width="11px"> 232 <img src="images/download-white.png" alt="download" width="11px"> 146k 
+                            </span></p>
+                            <p class="description description-inactive">Its your last night shift as a forklift operator at...</p>
+                            <p>
+                                <img src="images/windows-white.png" alt="windows" width="13px">
+                                <img src="images/apple-white.png" alt="apple" width="13px">
+                                <img src="images/play-store-white.png" alt="play-store" width="13px">
+                                <button class="assets-download-button"><span class="asset-dl-text">Download</span></button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- div.centre-1 ends -->
+
+            <div class="centre-2">
+                <div class="content"></div>
+
+                <div class="content-2">
+                    <!-- <h5>Nocturnal</h5> -->
+                    <p><h5>Nocturnal</h5><span id="stats-inside">
+                        <img src="images/heart-purple.png" alt="heart" width="11px"> 232 <img src="images/download-purple.png" alt="download" width="11px"> 146k 
+                    </span></p>
+                    <p>KeyCars is a free (multiplayer only) game where each player can play using a single key on a keyboard. Press a key to join, then hold that key to turn the vehicle. Clash into players, shoot projectiles or trick them into driving off the ledge… <br>
+                    KeyCars is a free (multiplayer only) game where each player can play using a single key on a keyboard. Press a key to join, then hold that key to turn the vehicle. Clash into players, shoot projectiles or trick them into driving off the ledge… <br>
+                    KeyCars is a free (multiplayer only) game where each player can play using a single key on a keyboard. Press a key to join, then hold that key to turn the vehicle. Clash into players, shoot projectiles or trick them into driving off the ledge… <br>
+                    KeyCars is a free (multiplayer only) game where each player can play using a single key on a keyboard. Press a key to join, then hold that key to turn the vehicle. Clash into players, shoot projectiles or trick them into driving off the ledge… <br>
+                    KeyCars is a free (multiplayer only) game where each player can play using a single key on a keyboard. Press a key to join, then hold that key to turn the vehicle. Clash into players, shoot projectiles or trick them into driving off the ledge…</p>
+                </div>
+
+                <div class="ach-1">
+                    <img src="images/ach1.svg" alt="achievement-1">
+                    <div class="rating1">
+                        <h6 class="ach-numbers">8.2</h6>
+                        <p class="ach-txt">Star Game</p>
+                    </div>
+                </div>
+
+                <div class="ach-2">
+                    <img src="images/ach2.svg" alt="achievement-2">
+                    <div class="rating2">
+                        <h6 class="ach-numbers">12</h6>
+                        <p class="ach-txt">Awards Game</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
